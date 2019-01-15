@@ -1,0 +1,84 @@
+
+*AND INTRO
+
+# a
+# b
+a and b; AND INTRO 1,2
+
+
+*AND ELIM, OR INTRO
+
+# a and b
+a; AND ELIM 1
+a or b; OR INTRO 2
+
+
+OR ELIM, FALSE INTRO, FALSE ELIM
+
+# a or b
+# not a
+-	a
+	false; FALSE INTRO 2,3
+	b; FALSE ELIM 4
+-	b
+b; OR ELIM 1,3-5,6-6
+
+
+*THEN ELIM
+
+# a then b
+# a
+b; THEN ELIM 1,2
+
+
+THEN INTRO
+
+# not a or b
+-	a
+	-	not a
+		false; FALSE INTRO 2,3
+		b; FALSE ELIM 4
+	-	b
+	b; OR ELIM 1, 3-5, 6-6
+a then b; THEN INTRO 2-7
+
+
+NOT INTRO
+
+# a and b
+-	not a
+	a; AND ELIM 1
+	false; FALSE INTRO 2,3
+a; NOT INTRO 2-4
+
+
+*NOT ELIM
+
+# not ( not a )
+a; NOT ELIM 1
+
+
+*IFF INTRO
+
+# a then b
+# b then a
+a iff b; IFF INTRO 1,2
+
+
+*IFF ELIM	
+
+# a iff b
+# a
+b; IFF ELIM 1,2
+
+
+*FALSE INTRO, FALSE ELIM
+
+# a
+# not ( a )
+false ; FALSE INTRO 1,2
+b ; FALSE ELIM 3
+
+
+
+EQUALS, ALL, EXISTS

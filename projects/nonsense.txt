@@ -1,0 +1,8 @@
+# a and b
+# not ( a and not ( b ) )
+# a or b
+c ; AND ELIM 1
+c ; OR INTRO 1
+c ; OR INTRO 3
+c or c ; OR INTRO 1
+c or c ; OR INTRO 3

@@ -1,0 +1,23 @@
+subproof:
+
+	line start
+	line end (end proof method)
+
+	list of premises/assumptions
+
+	list of lines or line interpretations
+
+
+line:
+
+
+
+
+
+
+
+literal:
+
+	id string
+
+	known value(s)?

@@ -1,0 +1,13 @@
+# a
+# not ( b )
+# not ( not ( c ) )
+# not ( d ) and e
+c ; NOT ELIM 3
+not ( d ) ; AND ELIM 4
+e ; AND ELIM 4
+a and not ( b ) ; AND INTRO 1,2
+not (b) and a ; AND INTRO 1,2
+# not ( not ( not ( not ( c ) ) ) )
+not ( not ( c ) ) ; NOT ELIM 10
+not ( c ) ; NOT ELIM 11
+STOP

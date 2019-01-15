@@ -1,0 +1,4 @@
+# a
+# not ( a )
+false ; FALSE INTRO 1,2
+b ; FALSE ELIM 3

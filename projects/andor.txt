@@ -1,0 +1,11 @@
+# a
+# b
+a and b ; AND INTRO 1,2
+a or b ; OR INTRO 1
+(a or b) and (a and b) ; AND INTRO 3,4
+a ; AND ELIM 3
+b ; AND ELIM 3
+a or b ; AND ELIM 5
+a and b ; AND ELIM 5
+b or a ; AND ELIM 5
+b and a ; AND ELIM 5

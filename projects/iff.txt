@@ -1,0 +1,10 @@
+# a and b
+	- a
+	b ; AND ELIM 1
+a then b ; THEN INTRO 2-3
+	- b
+	a ; AND ELIM 1
+b then a ; THEN INTRO 2-3
+b then a ; THEN INTRO 5-6
+a iff b ; IFF INTRO 4,7
+b iff a ; IFF INTRO 4,7

@@ -1,0 +1,68 @@
+pylogic
+
+python-like syntax
+
+v0.1:
+translates, compiles and prints
+
+
+
+
+
+notes
+
+- read text files as strings, put into lists and separate by spaces and remove empty stuff, read indents
+
+- make list of all rules/things
+
+- save proof files
+	- make some encryptable stuff in addition to being able to read them like text files?
+
+
+- has some derived rules already available similar to plugins (can add/load more proof files like this)
+	- same file types
+	- make sure it doesn't have to retest everytime, so place tested check within file
+	- groupable?
+
+
+
+everything: write test cases for each one
+
+9 intro, 9 elim
+
+and
+or
+contradiction
+negation
+implication
+iff
+
+equals
+existential
+universal
+
+
+
+
+
+
+not, ~, !
+contradiction, that symbol, false
+
+and, ^, &, +?
+or, |, v
+then, ->, =>
+iff, <=>
+=, ==, is
+exists
+all
+
+all x (x > 2)
+
+
+xor
+
+
+
+
+stuff with lists/for/if?

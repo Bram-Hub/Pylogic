@@ -1,0 +1,9 @@
+# a
+# not ( a )
+	- a
+	false ; FALSE INTRO 2,3
+not ( a ) ; NOT INTRO 3-4
+	- not ( a )
+	false ; FALSE INTRO 5,6
+a ; NOT INTRO 6-7
+not ( not ( a ) ) ; NOT INTRO 6-7

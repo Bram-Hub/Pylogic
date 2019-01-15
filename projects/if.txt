@@ -1,0 +1,6 @@
+# a then b
+# a
+# a iff b
+b ; THEN ELIM 1,2
+b ; IFF ELIM 3,2
+a ; IFF ELIM 3,4
